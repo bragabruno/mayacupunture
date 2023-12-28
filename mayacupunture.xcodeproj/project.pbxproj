@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55C070C72B3E127E00038F13 /* mayacupuntureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C070C62B3E127E00038F13 /* mayacupuntureApp.swift */; };
+		55C070C92B3E127E00038F13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C070C82B3E127E00038F13 /* ContentView.swift */; };
+		55C070CB2B3E127E00038F13 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C070CA2B3E127E00038F13 /* Item.swift */; };
+		55C070CD2B3E128000038F13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C070CC2B3E128000038F13 /* Assets.xcassets */; };
+		55C070D02B3E128000038F13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C070CF2B3E128000038F13 /* Preview Assets.xcassets */; };
+		55C070DC2B3E128100038F13 /* mayacupuntureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C070DB2B3E128100038F13 /* mayacupuntureTests.swift */; };
+		55C070E62B3E128100038F13 /* mayacupuntureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C070E52B3E128100038F13 /* mayacupuntureUITests.swift */; };
+		55C070E82B3E128100038F13 /* mayacupuntureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C070E72B3E128100038F13 /* mayacupuntureUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55C070D82B3E128100038F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55C070BB2B3E127E00038F13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55C070C22B3E127E00038F13;
+			remoteInfo = mayacupunture;
+		};
+		55C070E22B3E128100038F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55C070BB2B3E127E00038F13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55C070C22B3E127E00038F13;
+			remoteInfo = mayacupunture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55C070C32B3E127E00038F13 /* mayacupunture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mayacupunture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C070C62B3E127E00038F13 /* mayacupuntureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mayacupuntureApp.swift; sourceTree = "<group>"; };
+		55C070C82B3E127E00038F13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		55C070CA2B3E127E00038F13 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		55C070CC2B3E128000038F13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55C070CF2B3E128000038F13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55C070D12B3E128000038F13 /* mayacupunture.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mayacupunture.entitlements; sourceTree = "<group>"; };
+		55C070D22B3E128000038F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55C070D72B3E128100038F13 /* mayacupuntureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mayacupuntureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C070DB2B3E128100038F13 /* mayacupuntureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mayacupuntureTests.swift; sourceTree = "<group>"; };
+		55C070E12B3E128100038F13 /* mayacupuntureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mayacupuntureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C070E52B3E128100038F13 /* mayacupuntureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mayacupuntureUITests.swift; sourceTree = "<group>"; };
+		55C070E72B3E128100038F13 /* mayacupuntureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mayacupuntureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55C070C02B3E127E00038F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C070D42B3E128100038F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C070DE2B3E128100038F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55C070BA2B3E127E00038F13 = {
+			isa = PBXGroup;
+			children = (
+				55C070C52B3E127E00038F13 /* mayacupunture */,
+				55C070DA2B3E128100038F13 /* mayacupuntureTests */,
+				55C070E42B3E128100038F13 /* mayacupuntureUITests */,
+				55C070C42B3E127E00038F13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55C070C42B3E127E00038F13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55C070C32B3E127E00038F13 /* mayacupunture.app */,
+				55C070D72B3E128100038F13 /* mayacupuntureTests.xctest */,
+				55C070E12B3E128100038F13 /* mayacupuntureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55C070C52B3E127E00038F13 /* mayacupunture */ = {
+			isa = PBXGroup;
+			children = (
+				55C070C62B3E127E00038F13 /* mayacupuntureApp.swift */,
+				55C070C82B3E127E00038F13 /* ContentView.swift */,
+				55C070CA2B3E127E00038F13 /* Item.swift */,
+				55C070CC2B3E128000038F13 /* Assets.xcassets */,
+				55C070D12B3E128000038F13 /* mayacupunture.entitlements */,
+				55C070D22B3E128000038F13 /* Info.plist */,
+				55C070CE2B3E128000038F13 /* Preview Content */,
+			);
+			path = mayacupunture;
+			sourceTree = "<group>";
+		};
+		55C070CE2B3E128000038F13 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				55C070CF2B3E128000038F13 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55C070DA2B3E128100038F13 /* mayacupuntureTests */ = {
+			isa = PBXGroup;
+			children = (
+				55C070DB2B3E128100038F13 /* mayacupuntureTests.swift */,
+			);
+			path = mayacupuntureTests;
+			sourceTree = "<group>";
+		};
+		55C070E42B3E128100038F13 /* mayacupuntureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55C070E52B3E128100038F13 /* mayacupuntureUITests.swift */,
+				55C070E72B3E128100038F13 /* mayacupuntureUITestsLaunchTests.swift */,
+			);
+			path = mayacupuntureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55C070C22B3E127E00038F13 /* mayacupunture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55C070EB2B3E128100038F13 /* Build configuration list for PBXNativeTarget "mayacupunture" */;
+			buildPhases = (
+				55C070BF2B3E127E00038F13 /* Sources */,
+				55C070C02B3E127E00038F13 /* Frameworks */,
+				55C070C12B3E127E00038F13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mayacupunture;
+			productName = mayacupunture;
+			productReference = 55C070C32B3E127E00038F13 /* mayacupunture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55C070D62B3E128100038F13 /* mayacupuntureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55C070EE2B3E128100038F13 /* Build configuration list for PBXNativeTarget "mayacupuntureTests" */;
+			buildPhases = (
+				55C070D32B3E128100038F13 /* Sources */,
+				55C070D42B3E128100038F13 /* Frameworks */,
+				55C070D52B3E128100038F13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55C070D92B3E128100038F13 /* PBXTargetDependency */,
+			);
+			name = mayacupuntureTests;
+			productName = mayacupuntureTests;
+			productReference = 55C070D72B3E128100038F13 /* mayacupuntureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55C070E02B3E128100038F13 /* mayacupuntureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55C070F12B3E128100038F13 /* Build configuration list for PBXNativeTarget "mayacupuntureUITests" */;
+			buildPhases = (
+				55C070DD2B3E128100038F13 /* Sources */,
+				55C070DE2B3E128100038F13 /* Frameworks */,
+				55C070DF2B3E128100038F13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55C070E32B3E128100038F13 /* PBXTargetDependency */,
+			);
+			name = mayacupuntureUITests;
+			productName = mayacupuntureUITests;
+			productReference = 55C070E12B3E128100038F13 /* mayacupuntureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55C070BB2B3E127E00038F13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					55C070C22B3E127E00038F13 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					55C070D62B3E128100038F13 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 55C070C22B3E127E00038F13;
+					};
+					55C070E02B3E128100038F13 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 55C070C22B3E127E00038F13;
+					};
+				};
+			};
+			buildConfigurationList = 55C070BE2B3E127E00038F13 /* Build configuration list for PBXProject "mayacupunture" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55C070BA2B3E127E00038F13;
+			productRefGroup = 55C070C42B3E127E00038F13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55C070C22B3E127E00038F13 /* mayacupunture */,
+				55C070D62B3E128100038F13 /* mayacupuntureTests */,
+				55C070E02B3E128100038F13 /* mayacupuntureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55C070C12B3E127E00038F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C070D02B3E128000038F13 /* Preview Assets.xcassets in Resources */,
+				55C070CD2B3E128000038F13 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C070D52B3E128100038F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C070DF2B3E128100038F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55C070BF2B3E127E00038F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C070C92B3E127E00038F13 /* ContentView.swift in Sources */,
+				55C070CB2B3E127E00038F13 /* Item.swift in Sources */,
+				55C070C72B3E127E00038F13 /* mayacupuntureApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C070D32B3E128100038F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C070DC2B3E128100038F13 /* mayacupuntureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C070DD2B3E128100038F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C070E82B3E128100038F13 /* mayacupuntureUITestsLaunchTests.swift in Sources */,
+				55C070E62B3E128100038F13 /* mayacupuntureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55C070D92B3E128100038F13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55C070C22B3E127E00038F13 /* mayacupunture */;
+			targetProxy = 55C070D82B3E128100038F13 /* PBXContainerItemProxy */;
+		};
+		55C070E32B3E128100038F13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55C070C22B3E127E00038F13 /* mayacupunture */;
+			targetProxy = 55C070E22B3E128100038F13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		55C070E92B3E128100038F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55C070EA2B3E128100038F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55C070EC2B3E128100038F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = mayacupunture/mayacupunture.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mayacupunture/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mayacupunture/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bragdev.mayacupunture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55C070ED2B3E128100038F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = mayacupunture/mayacupunture.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mayacupunture/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mayacupunture/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bragdev.mayacupunture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55C070EF2B3E128100038F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bragdev.mayacupuntureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mayacupunture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mayacupunture";
+			};
+			name = Debug;
+		};
+		55C070F02B3E128100038F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bragdev.mayacupuntureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mayacupunture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mayacupunture";
+			};
+			name = Release;
+		};
+		55C070F22B3E128100038F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bragdev.mayacupuntureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mayacupunture;
+			};
+			name = Debug;
+		};
+		55C070F32B3E128100038F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bragdev.mayacupuntureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mayacupunture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55C070BE2B3E127E00038F13 /* Build configuration list for PBXProject "mayacupunture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C070E92B3E128100038F13 /* Debug */,
+				55C070EA2B3E128100038F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55C070EB2B3E128100038F13 /* Build configuration list for PBXNativeTarget "mayacupunture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C070EC2B3E128100038F13 /* Debug */,
+				55C070ED2B3E128100038F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55C070EE2B3E128100038F13 /* Build configuration list for PBXNativeTarget "mayacupuntureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C070EF2B3E128100038F13 /* Debug */,
+				55C070F02B3E128100038F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55C070F12B3E128100038F13 /* Build configuration list for PBXNativeTarget "mayacupuntureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C070F22B3E128100038F13 /* Debug */,
+				55C070F32B3E128100038F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55C070BB2B3E127E00038F13 /* Project object */;
+}
