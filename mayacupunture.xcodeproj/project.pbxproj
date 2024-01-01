@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		557D61E62B422D5400AD6486 /* SectionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557D61E42B422D5400AD6486 /* SectionList.swift */; };
+		557D61E72B422D5400AD6486 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557D61E52B422D5400AD6486 /* ContentView.swift */; };
+		557D61E92B4230CC00AD6486 /* SectionPersonalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557D61E82B4230CC00AD6486 /* SectionPersonalInfo.swift */; };
+		557D61EB2B423CA300AD6486 /* Rows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557D61EA2B423CA300AD6486 /* Rows.swift */; };
 		55C070C72B3E127E00038F13 /* mayacupuntureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C070C62B3E127E00038F13 /* mayacupuntureApp.swift */; };
-		55C070C92B3E127E00038F13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C070C82B3E127E00038F13 /* ContentView.swift */; };
 		55C070CB2B3E127E00038F13 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C070CA2B3E127E00038F13 /* Item.swift */; };
 		55C070CD2B3E128000038F13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C070CC2B3E128000038F13 /* Assets.xcassets */; };
 		55C070D02B3E128000038F13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C070CF2B3E128000038F13 /* Preview Assets.xcassets */; };
@@ -35,9 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		557D61E42B422D5400AD6486 /* SectionList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionList.swift; sourceTree = "<group>"; };
+		557D61E52B422D5400AD6486 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		557D61E82B4230CC00AD6486 /* SectionPersonalInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionPersonalInfo.swift; sourceTree = "<group>"; };
+		557D61EA2B423CA300AD6486 /* Rows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rows.swift; sourceTree = "<group>"; };
 		55C070C32B3E127E00038F13 /* mayacupunture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mayacupunture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C070C62B3E127E00038F13 /* mayacupuntureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mayacupuntureApp.swift; sourceTree = "<group>"; };
-		55C070C82B3E127E00038F13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		55C070CA2B3E127E00038F13 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		55C070CC2B3E128000038F13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55C070CF2B3E128000038F13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -75,6 +81,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		557D61E32B422D5400AD6486 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				557D61E42B422D5400AD6486 /* SectionList.swift */,
+				557D61E52B422D5400AD6486 /* ContentView.swift */,
+				557D61E82B4230CC00AD6486 /* SectionPersonalInfo.swift */,
+				557D61EA2B423CA300AD6486 /* Rows.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		55C070BA2B3E127E00038F13 = {
 			isa = PBXGroup;
 			children = (
@@ -98,8 +115,8 @@
 		55C070C52B3E127E00038F13 /* mayacupunture */ = {
 			isa = PBXGroup;
 			children = (
+				557D61E32B422D5400AD6486 /* Views */,
 				55C070C62B3E127E00038F13 /* mayacupuntureApp.swift */,
-				55C070C82B3E127E00038F13 /* ContentView.swift */,
 				55C070CA2B3E127E00038F13 /* Item.swift */,
 				55C070CC2B3E128000038F13 /* Assets.xcassets */,
 				55C070D12B3E128000038F13 /* mayacupunture.entitlements */,
@@ -264,8 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55C070C92B3E127E00038F13 /* ContentView.swift in Sources */,
+				557D61E92B4230CC00AD6486 /* SectionPersonalInfo.swift in Sources */,
+				557D61E72B422D5400AD6486 /* ContentView.swift in Sources */,
+				557D61E62B422D5400AD6486 /* SectionList.swift in Sources */,
 				55C070CB2B3E127E00038F13 /* Item.swift in Sources */,
+				557D61EB2B423CA300AD6486 /* Rows.swift in Sources */,
 				55C070C72B3E127E00038F13 /* mayacupuntureApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
